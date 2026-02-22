@@ -36,9 +36,13 @@ android {
 dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
-    implementation(libs.activity)
+    implementation("androidx.activity:activity:1.8.0")
     implementation(libs.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+}
+
+configurations.configureEach {
+    resolutionStrategy.force("androidx.activity:activity:1.8.0")
 }

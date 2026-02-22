@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Fintech App Creation - Word Counter (With Tests)</string>
+
+    <string name="input_hint">Enter text</string>
+    <string name="choose_count_type">Select counting type</string>
+    <string name="btn_count">Count</string>
+    <string name="result_prefix">Result: %1$d</string>
+    <string name="toast_empty_input">The input field is empty. Please enter text.</string>
+
+    <string-array name="count_types">
+        <item>Words</item>
+        <item>Punctuation marks</item>
+    </string-array>
 </resources>
